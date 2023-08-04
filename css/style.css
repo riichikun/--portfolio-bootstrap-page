@@ -1254,7 +1254,7 @@ button a, button p {
   }
   .gallery2-pic__container .active {
     /*opacity: 1;*/
-    transition-property: none;
+    /*transition-property: none;*/
     /*transition-duration: 1000ms;*/
   }
   .testimonial-item {
