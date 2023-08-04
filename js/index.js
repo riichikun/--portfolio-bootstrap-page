@@ -1,3 +1,7 @@
+window.onload = function () {
+    document.body.classList.add('loaded');
+  }
+
 document.addEventListener('DOMContentLoaded', () => {
 	const scrollItems = document.querySelectorAll('.scroll-item');
 

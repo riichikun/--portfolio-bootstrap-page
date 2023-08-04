@@ -10,6 +10,11 @@ body {
   height: -moz-fit-content;
   height: fit-content;
   position: relative;
+  visibility: hidden;
+}
+
+body.loaded {
+  visibility: visible;
 }
 
 .container {
@@ -1245,6 +1250,12 @@ button a, button p {
   }
   .gallery2-pic__container img {
     height: 70px;
+    opacity: 0.7;
+  }
+  .gallery2-pic__container .active {
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 1000ms;
   }
   .testimonial-item {
     min-width: 100%;
