@@ -862,7 +862,10 @@ button a, button p {
     gap: 20px;
   }
   .menu-bar a > p {
-    font-size: 14px;
+    font-size: 16px;
+  }
+  .accordion-button > p {
+    font-size: 16px;
   }
   /*.left-gallery__block {
       display: flex;
