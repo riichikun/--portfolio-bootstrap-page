@@ -31,11 +31,11 @@ for(let i=0; i<3; i++) {
 	galleryButtons[i].addEventListener('click', function() {
 		let activeNow = document.querySelectorAll('.gallery__container>.row>div>div>img.active')		
 		for(let k=0; k<3; k++) {
-			activeNow[k].className.remove('active');
+			activeNow[k].className = 'notactive';
 		}
 		for(let j=1; j<4; j++) {
 				let currentPicSrc = `img/gallery${3*i+j}.jpg`;
-				document.querySelector(`[src="${currentPicSrc}"]`).className.add('active');
+				document.querySelector(`[src="${currentPicSrc}"]`).className = 'active';
 			}
 		}
 	)	
