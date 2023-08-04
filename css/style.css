@@ -681,8 +681,8 @@ button a, button p {
   left: 0;
   z-index: -1;
   will-change: width;
-  transition-property: width;
-  transition-duration: 1000ms;
+  /*transition-property: width;
+  transition-duration: 1000ms;*/
   border-radius: 0;
   box-shadow: none;
 }
