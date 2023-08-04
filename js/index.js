@@ -41,6 +41,7 @@ for(let i=0; i<3; i++) {
 	)	
 }
 
+/* gallery-2 */
 const gallery2Items = document.querySelectorAll('.gallery2-pic__container>img');
 for(let i=0; i<4; i++) {
 	gallery2Items[i].addEventListener('click', function() {
