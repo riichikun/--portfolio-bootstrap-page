@@ -215,6 +215,7 @@ button a, button p {
 }
 .autorization-buttons button {
   width: 106px;
+  height: 60px;
 }
 
 /* header-main part */
@@ -440,7 +441,7 @@ button a, button p {
   margin-top: 75px;
   border-radius: 10px;
   width: 570px;
-  height: 60px;
+  height: 95px;
   display: flex;
   align-items: center;
 }
