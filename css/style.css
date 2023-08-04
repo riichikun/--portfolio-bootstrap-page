@@ -681,8 +681,8 @@ button a, button p {
   left: 0;
   z-index: -1;
   will-change: width;
-  /*transition-property: width;
-  transition-duration: 1000ms;*/
+  transition-property: width;
+  transition-duration: 1000ms;
   border-radius: 0;
   box-shadow: none;
 }
@@ -1253,9 +1253,9 @@ button a, button p {
     /*opacity: 0.7;*/
   }
   .gallery2-pic__container .active {
-    /*opacity: 1;
-    transition-property: opacity;
-    transition-duration: 1000ms;*/
+    /*opacity: 1;*/
+    transition-property: none;
+    /*transition-duration: 1000ms;*/
   }
   .testimonial-item {
     min-width: 100%;
