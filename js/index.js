@@ -49,11 +49,6 @@ for(let i=0; i<4; i++) {
 	})	
 }
 
-
-
-
-
-
 function itemsSlide() {
 	let testimonialItemWidth = document.querySelector('.testimonial-item').offsetWidth;
 	document.querySelector('.testimonial-buttons>.carousel-control-prev').addEventListener('click', function(e) {
